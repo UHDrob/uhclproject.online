@@ -266,7 +266,7 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">UX Design</h2>
-                    <h3 class="section-subheading text-muted">Screen Design / Report Design</h3>
+                    <h3 class="section-subheading text-muted">Form / Report / Interface Design</h3>
                 </div>
                 <div class="row">
                     <div class="col-lg-4 col-sm-6 mb-4">
@@ -276,11 +276,11 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/portfolio/1.jpg" alt="..." />
+                                <img class="img-fluid" src="assets/img/Form - Sign Up.png" alt="..." />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Threads</div>
-                                <div class="portfolio-caption-subheading text-muted">Illustration</div>
+                                <div class="portfolio-caption-heading">Form</div>
+                                <div class="portfolio-caption-subheading text-muted">Sign Up</div>
                             </div>
                         </div>
                     </div>
@@ -294,8 +294,8 @@
                                 <img class="img-fluid" src="assets/img/portfolio/2.jpg" alt="..." />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Explore</div>
-                                <div class="portfolio-caption-subheading text-muted">Graphic Design</div>
+                                <div class="portfolio-caption-heading">Form</div>
+                                <div class="portfolio-caption-subheading text-muted">New listing</div>
                             </div>
                         </div>
                     </div>
@@ -629,23 +629,69 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <h2 class="text-uppercase">Sign Up Form</h2>
+                                    <p class="item-intro text-muted">Create a new account</p>
+                                    <!--
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/Form - Sign Up.png" alt="..." />
+                                    -->
+                                    <p>This form will be used when Sign Up new users and create an account</p>
+                                    
+                                    <form class="row g-3">
+                                        <div class="col-md-6">
+                                            <label for="inputFirstName" class="form-label">First Name</label>
+                                            <input type="text" class="form-control" id="inputFirstName">
+                                          </div>
+                                          <div class="col-md-6">
+                                            <label for="inputLastName" class="form-label">Last Name</label>
+                                            <input type="text" class="form-control" id="inputLastName">
+                                          </div>
+                                        <div class="col-md-6">
+                                          <label for="inputEmail4" class="form-label">Email</label>
+                                          <input type="email" class="form-control" id="inputEmail4">
+                                        </div>
+                                        <div class="col-md-6">
+                                          <label for="inputPassword4" class="form-label">Password</label>
+                                          <input type="password" class="form-control" id="inputPassword4">
+                                        </div>
+                                        <div class="col-md-2">
+                                            <label for="inputAccount" class="form-label">Account</label>
+                                            <input type="text" class="form-control" id="inputAccount">
+                                          </div>
+                                        <div class="col-md-4">
+                                          <label for="inputRole" class="form-label">Role</label>
+                                          <select id="inputRole" class="form-select">
+                                            <option selected>Choose...</option>
+                                            <option>User</option>
+                                            <option>Administrator</option>
+                                          </select>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="inputPhoneNumber" class="form-label">Phone Number</label>
+                                            <input type="text" class="form-control" id="inputPhoneNumber">
+                                          </div>
+
+
+                                        <div class="col-12">
+                                          <button type="submit" class="btn btn-primary">Sign in</button>
+                                        </div>
+                                      </form>
+                                      <br>
+                                    
+                                    
+                                    
                                     <ul class="list-inline">
                                         <li>
-                                            <strong>Client:</strong>
-                                            Threads
+                                            <strong>Design:</strong>
+                                            Forms
                                         </li>
                                         <li>
-                                            <strong>Category:</strong>
-                                            Illustration
+                                            <strong>Task:</strong>
+                                            Account Creation
                                         </li>
                                     </ul>
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-times me-1"></i>
-                                        Close Project
+                                        Back
                                     </button>
                                 </div>
                             </div>
@@ -664,23 +710,66 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <h2 class="text-uppercase">New Listing Form</h2>
+                                    <p class="item-intro text-muted">Add New Listing</p>
                                     <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/2.jpg" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <p>This form will be used when existing account users need to add a new listing</p>
+                                    
+                                    <form class="row g-3">
+                                        <div class="col-md-6">
+                                            <label for="inputFirstName" class="form-label">First Name</label>
+                                            <input type="text" class="form-control" id="inputFirstName">
+                                          </div>
+                                          <div class="col-md-6">
+                                            <label for="inputLastName" class="form-label">Last Name</label>
+                                            <input type="text" class="form-control" id="inputLastName">
+                                          </div>
+                                        <div class="col-md-6">
+                                          <label for="inputEmail4" class="form-label">Email</label>
+                                          <input type="email" class="form-control" id="inputEmail4">
+                                        </div>
+                                        <div class="col-md-6">
+                                          <label for="inputPassword4" class="form-label">Password</label>
+                                          <input type="password" class="form-control" id="inputPassword4">
+                                        </div>
+                                        <div class="col-md-2">
+                                            <label for="inputAccount" class="form-label">Account</label>
+                                            <input type="text" class="form-control" id="inputAccount">
+                                          </div>
+                                        <div class="col-md-4">
+                                          <label for="inputRole" class="form-label">Role</label>
+                                          <select id="inputRole" class="form-select">
+                                            <option selected>Choose...</option>
+                                            <option>User</option>
+                                            <option>Administrator</option>
+                                          </select>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="inputPhoneNumber" class="form-label">Phone Number</label>
+                                            <input type="text" class="form-control" id="inputPhoneNumber">
+                                          </div>
+
+
+                                        <div class="col-12">
+                                          <button type="submit" class="btn btn-primary">Post Listing</button>
+                                        </div>
+                                      </form>
+                                      <br>
+                                    
+                                    
                                     <ul class="list-inline">
                                         <li>
-                                            <strong>Client:</strong>
-                                            Explore
+                                            <strong>Design:</strong>
+                                            Forms
                                         </li>
                                         <li>
-                                            <strong>Category:</strong>
-                                            Graphic Design
+                                            <strong>Task:</strong>
+                                            New Listing
                                         </li>
                                     </ul>
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-times me-1"></i>
-                                        Close Project
+                                        Back
                                     </button>
                                 </div>
                             </div>
