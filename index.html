@@ -266,7 +266,7 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/Form - Sign Up.png" alt="..." />
+                                <img class="img-fluid" src="assets/img/Sign Up Form.png" alt="..." />
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Sign Up Form</div>
@@ -730,7 +730,9 @@
                                     <!-- Project details-->
                                  
                                     <p class="item-intro text-muted">Add New Listing</p>
+                                    <!--
                                     <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/2.jpg" alt="..." />
+                                    -->
                                     <p>This form will be used when existing account users need to add a new listing</p>
                                     <ul class="list-inline">
                                         <li>
@@ -757,38 +759,91 @@
                                     <hr>
                                     <h2 class="text-uppercase">New Listing Form</h2>
                                     <form class="row g-3">
-                                        <div class="col-md-6">
-                                            <label for="inputFirstName" class="form-label">First Name</label>
-                                            <input type="text" class="form-control" id="inputFirstName">
-                                          </div>
-                                          <div class="col-md-6">
-                                            <label for="inputLastName" class="form-label">Last Name</label>
-                                            <input type="text" class="form-control" id="inputLastName">
-                                          </div>
-                                        <div class="col-md-6">
-                                          <label for="inputEmail4" class="form-label">Email</label>
-                                          <input type="email" class="form-control" id="inputEmail4">
-                                        </div>
-                                        <div class="col-md-6">
-                                          <label for="inputPassword4" class="form-label">Password</label>
-                                          <input type="password" class="form-control" id="inputPassword4">
-                                        </div>
                                         <div class="col-md-2">
-                                            <label for="inputAccount" class="form-label">Account</label>
-                                            <input type="text" class="form-control" id="inputAccount">
+                                            <label for="inputListingNo" class="form-label">Listing No</label>
+                                            <input type="text" class="form-control" id="inputListingNo" value="00005">
                                           </div>
                                         <div class="col-md-4">
-                                          <label for="inputRole" class="form-label">Role</label>
+                                          <label for="inputRole" class="form-label">Account</label>
                                           <select id="inputRole" class="form-select">
-                                            <option selected>Choose...</option>
-                                            <option>User</option>
-                                            <option>Administrator</option>
+                                            <option selected>Joe Smith</option>
+                                            <option>Joe Smith</option>
+                                            <option>Jane Garcia</option>
+                                            <option>Rob Go</option>
                                           </select>
                                         </div>
                                         <div class="col-md-6">
-                                            <label for="inputPhoneNumber" class="form-label">Phone Number</label>
+                                            <label for="inputType" class="form-label">Type of Ad</label>
+                                            <select id="inputRole" class="form-select">
+                                                <option selected>For sale by owner.</option>
+                                                <option>For Sale by dealer</option>
+                                                <option>Housing Offered</option>
+                                                <option>Housing wanted</option>
+                                                <option>Wanted by owner</option>
+                                                <option>Wanted by dealer</option>
+                                              </select>
+                                              <!---
                                             <input type="text" class="form-control" id="inputPhoneNumber">
+                                              -->
                                           </div>
+
+                                          <div class="col-md-6">
+                                            <label for="inputPicture" class="form-label">Picture</label>
+                                            <input type="text" class="form-control" id="inputPicture">
+                                          </div>
+                                          <div class="col-md-6">
+                                            <label for="inputArea" class="form-label">Area / Neighborhood</label>
+                                            <input type="text" class="form-control" id="inputArea">
+                                          </div>
+
+                                          <div class="col-md-6">
+                                            <label for="inputCategoru" class="form-label">Category</label>
+                                            <select id="inputRole" class="form-select">
+                                                <option selected>Bycycles</option>
+                                                <option>Antiques</option>
+                                                <option>Appliance</option>
+                                                <option>Art</option>
+                                                <option>ATV, snowmobiles</option>
+                                                <option>Autos</option>
+                                                <option>Apartments</option>
+                                              </select>
+                                              <!---
+                                            <input type="text" class="form-control" id="inputPhoneNumber">
+                                              -->
+                                          </div>
+                                          <div class="col-md-6">
+                                            <label for="inputListingDescription" class="form-label">Listing description</label>
+                                            <input type="text" class="form-control" id="inputListingDescription">
+                                          </div>
+
+                                        <div class="col-md-6">
+                                          <label for="inputCondition" class="form-label">Condition</label>
+                                          <select id="inputCondition" class="form-select">
+                                            <option selected>New</option>
+                                            <option>Used - Like New</option>
+                                            <option>Used - Very Good</option>
+                                            <option>Used Good</option>
+                                            <option>Used Fair</option>
+                                          </select>
+                                        </div>
+                                        <div class="col-md-6">
+                                          <label for="inputPrice" class="form-label">Price</label>
+                                          <input type="password" class="form-control" id="inputPrice">
+                                        </div>
+
+                                        <div class="form-check form-switch">
+                                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckCryptot">
+                                            <label class="form-check-label" for="flexSwitchCheckDefault">Take Cryptocurrencies</label>
+                                          </div>
+                                          <div class="form-check form-switch">
+                                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckPhone" checked>
+                                            <label class="form-check-label" for="flexSwitchCheckChecked">Show Phone Number</label>
+                                          </div>
+                                          <div class="form-check form-switch">
+                                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckDelivery" >
+                                            <label class="form-check-label" for="flexSwitchCheckDisabled"></label>Delivery Available</label>
+                                          </div>
+                                          
 
 
                                         <div class="col-12">
