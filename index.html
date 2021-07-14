@@ -279,8 +279,8 @@
                                 <img class="img-fluid" src="assets/img/Form - Sign Up.png" alt="..." />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Form</div>
-                                <div class="portfolio-caption-subheading text-muted">Sign Up</div>
+                                <div class="portfolio-caption-heading">Sign Up Form</div>
+                                <div class="portfolio-caption-subheading text-muted">New Accounts</div>
                             </div>
                         </div>
                     </div>
@@ -294,7 +294,7 @@
                                 <img class="img-fluid" src="assets/img/portfolio/2.jpg" alt="..." />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Form</div>
+                                <div class="portfolio-caption-heading">Listing Form</div>
                                 <div class="portfolio-caption-subheading text-muted">New listing</div>
                             </div>
                         </div>
@@ -309,7 +309,7 @@
                                 <img class="img-fluid" src="assets/img/portfolio/3.jpg" alt="..." />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Finish</div>
+                                <div class="portfolio-caption-heading">Schedule Report</div>
                                 <div class="portfolio-caption-subheading text-muted">Identity</div>
                             </div>
                         </div>
@@ -324,7 +324,7 @@
                                 <img class="img-fluid" src="assets/img/portfolio/4.jpg" alt="..." />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Lines</div>
+                                <div class="portfolio-caption-heading">Key Indicator Report</div>
                                 <div class="portfolio-caption-subheading text-muted">Branding</div>
                             </div>
                         </div>
@@ -629,14 +629,53 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">Sign Up Form</h2>
-                                    <p class="item-intro text-muted">Create a new account</p>
+
+                                    <p class="item-intro text-muted">Design Specification</p>
                                     <!--
                                     <img class="img-fluid d-block mx-auto" src="assets/img/Form - Sign Up.png" alt="..." />
                                     -->
-                                    <p>This form will be used when Sign Up new users and create an account</p>
-                                    
+                                    <p>This form will be used to create an account</p>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong>Form:</strong>
+                                            Sign up (New accounts)
+                                        </li>
+                                        <li>
+                                            <strong>Users:</strong>
+                                            Any new user or admin
+                                        </li>
+                                        <li>
+                                            <strong>Tasks:</strong>
+                                            Input user information: Name, email, password, and phone number
+                                        </li>
+                                        <li>
+                                            <strong>System:</strong>
+                                            Web based
+                                        </li>
+                                        <li>
+                                            <strong>Environment:</strong>
+                                            Standard browser
+                                        </li>
+                                    </ul>
+                                    <hr>
+                                    <h2 class="text-uppercase">Sign Up Form</h2>
                                     <form class="row g-3">
+                                        <div class="col-md-2">
+                                            <label for="inputAccount" class="form-label">Account</label>
+                                            <input type="text" class="form-control" id="inputAccount" value="01020">
+                                          </div>
+                                        <div class="col-md-4">
+                                          <label for="inputRole" class="form-label">Role</label>
+                                          <select id="inputRole" class="form-select">
+                                            <option selected>User</option>
+                                            <option>User</option>
+                                            <option>Administrator</option>
+                                          </select>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="inputPhoneNumber" class="form-label">Phone Number</label>
+                                            <input type="text" class="form-control" id="inputPhoneNumber">
+                                        </div>
                                         <div class="col-md-6">
                                             <label for="inputFirstName" class="form-label">First Name</label>
                                             <input type="text" class="form-control" id="inputFirstName">
@@ -653,23 +692,6 @@
                                           <label for="inputPassword4" class="form-label">Password</label>
                                           <input type="password" class="form-control" id="inputPassword4">
                                         </div>
-                                        <div class="col-md-2">
-                                            <label for="inputAccount" class="form-label">Account</label>
-                                            <input type="text" class="form-control" id="inputAccount">
-                                          </div>
-                                        <div class="col-md-4">
-                                          <label for="inputRole" class="form-label">Role</label>
-                                          <select id="inputRole" class="form-select">
-                                            <option selected>Choose...</option>
-                                            <option>User</option>
-                                            <option>Administrator</option>
-                                          </select>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <label for="inputPhoneNumber" class="form-label">Phone Number</label>
-                                            <input type="text" class="form-control" id="inputPhoneNumber">
-                                          </div>
-
 
                                         <div class="col-12">
                                           <button type="submit" class="btn btn-primary">Sign in</button>
@@ -677,16 +699,22 @@
                                       </form>
                                       <br>
                                     
-                                    
+                                      <hr>
+                                      <p>User rated perceptions (average 10 users) 
+                                       1 lowest, 10 highest :</p>
                                     
                                     <ul class="list-inline">
                                         <li>
-                                            <strong>Design:</strong>
-                                            Forms
+                                            <strong>Consistency:</strong>
+                                            9
                                         </li>
                                         <li>
-                                            <strong>Task:</strong>
-                                            Account Creation
+                                            <strong>Sufficiency:</strong>
+                                            8
+                                        </li>
+                                        <li>
+                                            <strong>Accuracy</strong>:</strong>
+                                            9
                                         </li>
                                     </ul>
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
@@ -710,11 +738,34 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">New Listing Form</h2>
+                                 
                                     <p class="item-intro text-muted">Add New Listing</p>
                                     <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/2.jpg" alt="..." />
                                     <p>This form will be used when existing account users need to add a new listing</p>
-                                    
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong>Form:</strong>
+                                            New Listing
+                                        </li>
+                                        <li>
+                                            <strong>Users:</strong>
+                                            Any new registered user or admin
+                                        </li>
+                                        <li>
+                                            <strong>Tasks:</strong>
+                                            Input listing information: Title, Description, Details, Options, and Price
+                                        </li>
+                                        <li>
+                                            <strong>System:</strong>
+                                            Web based
+                                        </li>
+                                        <li>
+                                            <strong>Environment:</strong>
+                                            Standard browser
+                                        </li>
+                                    </ul>
+                                    <hr>
+                                    <h2 class="text-uppercase">New Listing Form</h2>
                                     <form class="row g-3">
                                         <div class="col-md-6">
                                             <label for="inputFirstName" class="form-label">First Name</label>
@@ -756,17 +807,24 @@
                                       </form>
                                       <br>
                                     
-                                    
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Design:</strong>
-                                            Forms
-                                        </li>
-                                        <li>
-                                            <strong>Task:</strong>
-                                            New Listing
-                                        </li>
-                                    </ul>
+                                    <hr>
+                                      <p>User rated perceptions (average 10 users) 
+                                        1 lowest, 10 highest :</p>
+                                     
+                                     <ul class="list-inline">
+                                         <li>
+                                             <strong>Consistency:</strong>
+                                             9
+                                         </li>
+                                         <li>
+                                             <strong>Sufficiency:</strong>
+                                             8
+                                         </li>
+                                         <li>
+                                             <strong>Accuracy</strong>:</strong>
+                                             9
+                                         </li>
+                                     </ul>
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-times me-1"></i>
                                         Back
