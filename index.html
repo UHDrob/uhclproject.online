@@ -896,6 +896,25 @@
                                     <hr>
                                     <h2 class="text-uppercase">New Listing Form</h2>
                                     <form class="row g-3">
+
+                                        <div class="col-md-6">
+                                            <label for="inputCategoru" class="form-label">Category</label>
+                                            <select id="inputRole" class="form-select">
+                                                <option selected>Bycycles</option>
+                                                <option>Antiques</option>
+                                                <option>Appliance</option>
+                                                <option>Art</option>
+                                                <option>ATV, snowmobiles</option>
+                                                <option>Autos</option>
+                                                <option>Apartments</option>
+                                                <option>Bicycles</option>
+                                              </select>
+                                          </div>
+                                          <div class="col-md-6">
+                                            <label for="inputArea" class="form-label">Area / Neighborhood</label>
+                                            <input type="text" class="form-control" id="inputArea">
+                                          </div>
+
                                         <div class="col-md-2">
                                             <label for="inputListingNo" class="form-label ">Listing No</label>
                                             <input type="text" class="form-control" disabled id="inputListingNo" value="00005">
@@ -921,7 +940,12 @@
                                               </select>
                                           </div>
 
-                                          <div class="col-md-9">
+                                          <div class="col-md-12">
+                                            <label for="inputListingDescription" class="form-label">Listing description</label>
+                                            <input type="text" class="form-control" id="inputListingDescription">
+                                          </div>
+
+                                          <div class="col-md-12">
                                             <label for="inputPicture" class="form-label">Click on the "Choose File" button to upload a picture:</label>
                                             <!--
                                             <input type="text" class="form-control" id="inputPicture">
@@ -930,31 +954,6 @@
                                                 <input type="file" id="myFile" name="filename">
                                                 <input type="submit">
                                                 </form>
-                                          </div>
-                                          <div class="col-md-3">
-                                            <label for="inputArea" class="form-label">Area / Neighborhood</label>
-                                            <input type="text" class="form-control" id="inputArea">
-                                          </div>
-
-                                          <div class="col-md-4">
-                                            <label for="inputCategoru" class="form-label">Category</label>
-                                            <select id="inputRole" class="form-select">
-                                                <option selected>Bycycles</option>
-                                                <option>Antiques</option>
-                                                <option>Appliance</option>
-                                                <option>Art</option>
-                                                <option>ATV, snowmobiles</option>
-                                                <option>Autos</option>
-                                                <option>Apartments</option>
-                                                <option>Bicycles</option>
-                                              </select>
-                                              <!---
-                                            <input type="text" class="form-control" id="inputPhoneNumber">
-                                              -->
-                                          </div>
-                                          <div class="col-md-8">
-                                            <label for="inputListingDescription" class="form-label">Listing description</label>
-                                            <input type="text" class="form-control" id="inputListingDescription">
                                           </div>
 
                                         <div class="col-md-4">
