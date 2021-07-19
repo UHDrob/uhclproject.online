@@ -254,6 +254,7 @@
                 </div>
             </div>
         </section>
+
         <!-- UX Design-->
         <section class="page-section bg-light" id="uxdesign">
             <div class="container">
@@ -263,7 +264,7 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Portfolio item 1-->
+                        <!-- Portfolio item 101-->
                         <div class="portfolio-item">
                             <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal101">
                                 <div class="portfolio-hover">
@@ -278,9 +279,9 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Portfolio item 2-->
+                        <!-- Portfolio item 102-->
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal102">
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
@@ -854,8 +855,8 @@
         </div>
 
 
-        <!-- Portfolio item 2 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <!-- Portfolio item 102 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal102" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
@@ -921,8 +922,14 @@
                                           </div>
 
                                           <div class="col-md-7">
-                                            <label for="inputPicture" class="form-label">Picture</label>
+                                            <label for="inputPicture" class="form-label">Click on the "Choose File" button to upload a picture:</label>
+                                            <!--
                                             <input type="text" class="form-control" id="inputPicture">
+                                            -->
+                                                <form action="/action_page.php">
+                                                <input type="file" id="myFile" name="filename">
+                                                <input type="submit">
+                                                </form>
                                           </div>
                                           <div class="col-md-5">
                                             <label for="inputArea" class="form-label">Area / Neighborhood</label>
@@ -939,6 +946,7 @@
                                                 <option>ATV, snowmobiles</option>
                                                 <option>Autos</option>
                                                 <option>Apartments</option>
+                                                <option>Bicycles</option>
                                               </select>
                                               <!---
                                             <input type="text" class="form-control" id="inputPhoneNumber">
